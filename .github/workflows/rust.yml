@@ -12,7 +12,7 @@ env:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: host11-rust-calc
 
     steps:
     - uses: actions/checkout@v2
